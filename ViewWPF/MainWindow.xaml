@@ -1,0 +1,28 @@
+﻿<Window x:Class="ViewWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ViewWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="434.016" Width="800">
+    <Grid>
+        <ListBox ItemsSource="{Binding Path=Employees}" SelectedItem="{Binding CurrentEmployee}"
+            HorizontalAlignment="Left" Height="357" Margin="10,10,0,0" VerticalAlignment="Top" Width="230"/>
+        <Button Command="{Binding GetEmpsCommand}"
+            Content="Получить список сотрудников" HorizontalAlignment="Left" Margin="10,372,0,0" VerticalAlignment="Top" Width="230"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="366,10,0,0" TextWrapping="Wrap" Text="{Binding eName}" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="366,38,0,0" TextWrapping="Wrap" Text="{Binding ePost}" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="366,94,0,0" TextWrapping="Wrap" Text="{Binding eAge}" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="366,66,0,0" TextWrapping="Wrap" Text="{Binding eSalary}" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Имя сотрудника" HorizontalAlignment="Left" Margin="245,7,0,0" VerticalAlignment="Top"/>
+        <Label Content="Должность" HorizontalAlignment="Left" Margin="245,35,0,0" VerticalAlignment="Top"/>
+        <Label Content="Возраст" HorizontalAlignment="Left" Margin="245,91,0,0" VerticalAlignment="Top"/>
+        <Label Content="Оклад" HorizontalAlignment="Left" Margin="245,63,0,0" VerticalAlignment="Top"/>
+        <Button Command="{Binding UpdEmpCommand}"
+            Content="Обновить" HorizontalAlignment="Left" Margin="245,133,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Command="{Binding DelEmpCommand}"
+            Content="Удалить" HorizontalAlignment="Left" Margin="386,133,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\вторая_получается\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Admin\source\repos\вторая_получается\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Admin\source\repos\вторая_получается\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Admin\source\repos\вторая_получается\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Admin\source\repos\вторая_получается\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\repos\вторая_получается\DataAccessLayer\bin\Debug\Model.dll
+C:\Users\Admin\source\repos\вторая_получается\DataAccessLayer\bin\Debug\Model.pdb
+C:\Users\Admin\source\repos\вторая_получается\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Admin\source\repos\вторая_получается\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\repos\вторая_получается\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\вторая_получается\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\вторая_получается\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\Admin\source\repos\вторая_получается\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Admin\source\repos\вторая_получается\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
